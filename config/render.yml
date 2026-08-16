@@ -1,6 +1,6 @@
 services:
   type: web
-  name:workshop-todolist
+  name: workshop-todolist
   runtime : ruby
   buildCommmand : bundle install
   startCommand : bin/dev
