@@ -1,8 +1,9 @@
-services;
-
+services:
   type: web
   name:workshop-todolist
-  runtime : docker
+  runtime : ruby
+  buildCommmand : bundle install
+  startCommand : bin/dev
 plan : free
 healthCheckPath : /up
 disk :
